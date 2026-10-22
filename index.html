@@ -1,108 +1,22 @@
 <!doctype html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="referrer" content="no-referrer">
-    <meta name="theme-color" content="#f5f7fa">
-    <meta name="description" content="回看 · 北极星复盘的访问入口。">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="一张总表，回看每个月与每一年。" />
+    <meta name="theme-color" content="#1c304a" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>回看 · 北极星复盘</title>
-    <link rel="canonical" href="https://northstar-review-mu.vercel.app/">
-    <script>
-      window.location.replace("https://northstar-review-mu.vercel.app/");
-    </script>
-    <noscript>
-      <meta http-equiv="refresh" content="0; url=https://northstar-review-mu.vercel.app/">
-    </noscript>
-    <style>
-      :root {
-        color-scheme: light;
-        --ink: #1c304a;
-        --muted: #596b82;
-        --blue: #245ccb;
-        --ground: #f5f7fa;
-        --line: #d9e1eb;
-        font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
-        color: var(--ink);
-        background: var(--ground);
-      }
-      * { box-sizing: border-box; }
-      body {
-        min-height: 100vh;
-        min-height: 100svh;
-        margin: 0;
-        display: grid;
-        place-items: center;
-        padding: 32px 24px;
-      }
-      main {
-        width: min(100%, 560px);
-        border-top: 2px solid var(--ink);
-        border-bottom: 1px solid var(--line);
-        padding: 40px 0 36px;
-      }
-      h1 {
-        margin: 0;
-        font-size: clamp(32px, 7vw, 42px);
-        font-weight: 650;
-        line-height: 1.25;
-        letter-spacing: -0.025em;
-        text-wrap: balance;
-      }
-      h1 span {
-        display: block;
-        margin-top: 14px;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 1.6;
-        letter-spacing: 0;
-      }
-      p {
-        margin: 32px 0 24px;
-        color: var(--muted);
-        font-size: 14px;
-        line-height: 1.8;
-        text-wrap: pretty;
-      }
-      a {
-        display: inline-flex;
-        min-height: 46px;
-        align-items: center;
-        justify-content: center;
-        gap: 16px;
-        padding: 11px 18px;
-        border: 1px solid var(--blue);
-        border-radius: 6px;
-        color: #fff;
-        background: var(--blue);
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.6;
-        text-decoration: none;
-        transition: background-color 160ms ease-out;
-      }
-      a:hover { background: #194ba8; }
-      a:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
-      svg { flex: none; }
-      ::selection { background: #dce8ff; color: var(--ink); }
-      @media (max-width: 420px) {
-        main { padding: 32px 0; }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        a { transition: none; }
-      }
-    </style>
+    <link rel="icon" href="/northstar/favicon.svg" />
+    <link rel="apple-touch-icon" href="/northstar/icon-180.png" />
+    <link rel="manifest" href="/northstar/manifest.webmanifest" />
+    <script type="module" crossorigin src="/northstar/assets/index-DaSBV-A0.js"></script>
+    <link rel="modulepreload" crossorigin href="/northstar/assets/rolldown-runtime-XKyaHtl9.js">
+    <link rel="stylesheet" crossorigin href="/northstar/assets/index-Hx0-KyL-.css">
   </head>
   <body>
-    <main>
-      <h1>回看<span>北极星复盘</span></h1>
-      <p>正在打开复盘页。<br>若未自动跳转，请点击下方按钮。</p>
-      <a href="https://northstar-review-mu.vercel.app/" rel="noreferrer">
-        进入复盘
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M5 12h14m-6-6 6 6-6 6"></path>
-        </svg>
-      </a>
-    </main>
+    <div id="root"><p style="margin:15vh auto;max-width:32rem;padding:24px;color:#1c304a;font-family:system-ui">正在打开北极星复盘…</p></div>
+    <noscript>请开启浏览器 JavaScript，以使用账号登录和复盘编辑。</noscript>
   </body>
 </html>
